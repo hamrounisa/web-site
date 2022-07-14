@@ -1,0 +1,71 @@
+/*page heager*/
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    /*padding: auto 50px auto 50px;*/
+}
+/*nav*/
+.nav ul {
+    display: flex;
+}
+.nav ul li {
+    list-style-type: none;
+    min-width: 120px;
+    color: #747474;
+}
+.bag{
+    display: block;
+    background-image: url(https://www.docplanner.com/images/bg-top.jpg);
+    background-repeat : no-repeat;
+    background-size : cover;
+    height: 100%;
+}
+.job{
+    display: flex;
+    flex-direction: column;
+    background: white;
+    max-width: 440px;
+    padding: 3em 2.5em 3.125em 3.125em;
+    margin: 3.75em 0;
+}
+h1{
+    color: #00b39b;
+    font-size: 2.5em;
+    font-family: Work Sans,Arial,sans-serif;
+    font-weight: 300;
+    letter-spacing: -.3px;
+}
+p{
+    line-height: 1.75;
+    color: #747474;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.section2{
+    font-size: 1.75em;
+    text-align: center;
+}
+.card1{
+    line-height: 125px;
+    height: 125px;
+    margin: 0.2em auto 1.875em;
+}
+.card-body{
+    display: inline-block;
+    position: relative;
+    border-radius: 4px;
+    padding: 1.1666666667em 1.5em;
+    font-family: Roboto,Arial,sans-serif;
+    line-height: 1em;
+    font-weight: 700;
+    letter-spacing: .04em;
+    font-size: .75rem;
+    text-align: center;
+    text-transform: uppercase;
+    transition: all .2s ease 0s;
+}
